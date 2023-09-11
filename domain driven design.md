@@ -1,3 +1,22 @@
+### Key problems
+
+- DTO
+- Validator 
+- Aggregate Root
+- Value Object
+- Repository
+	- Repo vs DAO
+	- Which layer does Repo belong to?
+		- Repo interface (app or domain)
+		- Repo implementation (adaptor)
+	
+
+
+
+
+
+
+
  Repo is defined by Aggregation while DAO is defined by DB table, i.e., one repo instance per aggregation while 1 DAO instance per table.
 -  Driving vs Driven
 	- Application implements Driving ports (REST API, grpc API)
